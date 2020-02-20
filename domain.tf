@@ -3,7 +3,7 @@ terraform {
 }
 
 variable "domain" {
-  default = "CHANGEME.4zbug.stj.io"
+  default = "domain123.xyz"
 }
 
 variable "domain_soa_email" {
