@@ -1,6 +1,7 @@
 resource "linode_domain_record" "srv-oli" {
   domain_id   = linode_domain.root.id
   record_type = "SRV"
+  name        = "myname"
   target      = "mytarget"
   service     = "myservice"
   protocol    = "tcp"
